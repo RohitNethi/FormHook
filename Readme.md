@@ -1,6 +1,7 @@
 #Usage 
 
 ##Initialization
+```
 import useForm from 'form-hook.js';
 const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } = useForm(
     {
@@ -9,10 +10,12 @@ const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } =
       password: '',
     }, callbackFn(),
   );
-  
+```
   ##In Form
+```
   <input
         name="first_name"
         value={inputs.first_name}
         onChange={handleInputChange}
   />
+```
