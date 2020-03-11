@@ -1,6 +1,6 @@
-#Usage 
+# Usage 
 
-##Initialization
+## Initialization
 ```
 import useForm from 'form-hook.js';
 const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } = useForm(
@@ -11,7 +11,7 @@ const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } =
     }, callbackFn(),
   );
 ```
-  ##In Form
+## In Form
 ```
   <input
         name="first_name"
