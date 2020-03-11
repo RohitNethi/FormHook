@@ -8,7 +8,7 @@ const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } =
       first_name: '',
       last_name: '',
       password: '',
-    }, callbackFn(),
+    }, callbackFn,
   );
 ```
 ## In Form
