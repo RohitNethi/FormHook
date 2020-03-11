@@ -12,7 +12,7 @@ const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } =
 const { inputs, handleInputChange, handleSubmitForm, handleInputObjectChange } = useForm(
     {
         first_name: ''
-    }, callbackFn,
+    },  callbackFn,
 );
   
   <input
